@@ -28,19 +28,28 @@ function max(arr) {
 // ============ PART 2: STRING FUNCTIONS ============
 function capitalize(str) {
   // TODO: Return string with first letter capitalized
+    return str.charAt(0).toUpperCase() + str.slice(1);
   // "hello" -> "Hello"
+
 }
 
 function reverse(str) {
   // TODO: Return the string reversed
+    return str.split("").reverse().join("");
   // "hello" -> "olleh"
   // Hint: str.split("").reverse().join("")
 }
 
 function countVowels(str) {
-  // TODO: Return count of vowels (a, e, i, o, u)
-  // "hello" -> 2
-}
+    const vowels = "aeiouAEIOU";
+    let count = 0;
+    for (let char of str) {
+      if (vowels.includes(char)) {
+        count++;
+      }
+    }
+    return count;
+  }
 
 // ============ PART 3: OBJECT ============
 const student = {
