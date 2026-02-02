@@ -89,3 +89,28 @@ console.log("Student:", student.name);
 console.log("Grades:", student.grades);
 console.log("Average:", student.getAverage());
 console.log("Honor Roll:", student.isHonorRoll());
+
+
+// TEST CODE OUTPUT //
+//=== Part 1: Arrays ===
+// Numbers: [
+//     10,  5, 8, 12, 3,
+//      7, 15, 2,  9, 6
+//   ]
+//   Sum: 77
+//   Average: 7.7
+//   Min: 2
+//   Max: 15
+  
+//   === Part 2: Strings ===
+//   capitalize('hello'): Hello
+//   reverse('hello'): olleh
+//   countVowels('hello'): 2
+  
+//   === Part 3: Object ===
+//   Student: Celia Cen
+//   Grades: [ 85, 92, 78, 90, 88 ]
+//   Average: 86.6
+//   Honor Roll: true
+  
+//   [Done] exited with code=0 in 0.166 seconds 
